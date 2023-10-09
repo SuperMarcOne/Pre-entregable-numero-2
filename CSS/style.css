@@ -65,7 +65,17 @@ h2 {
 
 /* pagina 3 peliculas */
 
+.portada-pelicula {
+    height: 20rem;
+    width: 15rem;
+    margin: 2rem;
+}
 
+.descripcion-pelicula {
+    font-weight: bold;
+    text-align: justify;
+    margin: 1rem;
+}
 
 /* pagina 4 libros */
 
@@ -86,6 +96,7 @@ h2 {
 .compra {  
     display: flex;
     justify-content: center;
+    margin: 5rem;
 }
 
 .imagen-compra {
