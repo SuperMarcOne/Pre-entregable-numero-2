@@ -55,18 +55,29 @@ footer {
 
 .presentacion-1 {
     display: flex;
-    margin: 2rem;
+    margin: 1rem;
     padding: 1rem;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     text-align: justify;
+    font-weight: 600;
 }
 
 .presentacion-2 {
     display: flex;
-    margin: 2rem;
+    margin: 1rem;
     padding: 1rem;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     text-align: justify;
+    font-weight: 600;
+}
+
+.presentacion-3 {
+    display: flex;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+    text-align: justify;
+    font-weight: 600;
 }
 
 .imagen-1 {
