@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: gainsboro;
+}
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+/* pagina 1 inicio */
+
+.presentacion-1 {
+    display: flex;
+    margin: 2rem;
+    padding: 1rem;
+    font-size: 2rem;
+    text-align: justify;
+}
+
+.presentacion-2 {
+    display: flex;
+    margin: 2rem;
+    padding: 1rem;
+    font-size: 2rem;
+    text-align: justify;
+}
+
+.imagen-1 {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.imagen-1 img {
+    height: 500px;
+    width: 1000px;
+}
+
+/* pagina 2 juegos */
+
+h2 {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.portada-juego {
+    height: 20rem;
+    width: 15rem;
+    margin: 2rem;
+}
+
+.descripcion-juego {
+    font-weight: bold;
+    text-align: justify;
+    margin: 1rem;
+}
