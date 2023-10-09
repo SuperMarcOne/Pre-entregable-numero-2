@@ -3,6 +3,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -28,13 +29,35 @@ footer {
     font-weight: bold;
 }
 
+/* modificando bootstrap */
+
+.barra-nav {
+    background-color: grey !important;
+}
+
+.inicio-1 {
+    color: red;
+    font-weight: bold;
+    font-size: 2.2rem;
+}
+
+.nav-item {
+    font-weight:800;
+    font-size: 2rem;
+}
+
+.nav-item:hover {
+    background-color: #eee;
+    border-radius: 1rem;
+}
+
 /* pagina 1 inicio */
 
 .presentacion-1 {
     display: flex;
     margin: 2rem;
     padding: 1rem;
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-align: justify;
 }
 
@@ -42,7 +65,7 @@ footer {
     display: flex;
     margin: 2rem;
     padding: 1rem;
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-align: justify;
 }
 
@@ -55,6 +78,7 @@ footer {
 .imagen-1 img {
     height: 31.25rem;
     width: 62.5rem;
+    border-radius: 1rem;
 }
 
 /* pagina 2 juegos */
@@ -69,6 +93,8 @@ h2 {
     height: 20rem;
     width: 15rem;
     margin: 2rem;
+    object-fit: cover;
+    border-radius: 1rem;
 }
 
 .descripcion-juego {
@@ -83,6 +109,8 @@ h2 {
     height: 20rem;
     width: 15rem;
     margin: 2rem;
+    object-fit: cover;
+    border-radius: 1rem;
 }
 
 .descripcion-pelicula {
@@ -97,6 +125,7 @@ h2 {
     height: 20rem;
     width: 15rem;
     margin: 2rem;
+    border-radius: 1rem;
 }
 
 .descripcion-libro {
@@ -107,13 +136,31 @@ h2 {
 
 /* pagina 5 compra */
 
-.compra {  
+.compra-1 {  
     display: flex;
     justify-content: center;
-    margin: 5rem;
+    margin: 1rem;
 }
 
-.imagen-compra {
-    height: 31.25rem;
+.imagen-compra-1 {
+    border-radius: 1rem;
     width: 62.5rem;
+    max-width: 100%;
+    height: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.compra-2 {  
+    display: flex;
+    justify-content: center;
+}
+
+
+.imagen-compra-2 {
+    border-radius: 1rem;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin-top: 3rem;
 }
