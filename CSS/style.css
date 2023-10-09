@@ -73,12 +73,14 @@ footer {
     display: flex;
     justify-content: center;
     margin: 1rem;
+
 }
 
 .imagen-1 img {
-    height: 31.25rem;
     width: 62.5rem;
     border-radius: 1rem;
+    max-width: 100%;
+    height: auto;
 }
 
 /* pagina 2 juegos */
