@@ -23,11 +23,11 @@ span {
 
 h2 {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
 }
 
-footer {
-    font-weight: bold;
-}
 
 /* modificando bootstrap */
 
@@ -53,25 +53,7 @@ footer {
 
 /* pagina 1 inicio */
 
-.presentacion-1 {
-    display: flex;
-    margin: 1rem;
-    padding: 1rem;
-    font-size: 1.2rem;
-    text-align: justify;
-    font-weight: 600;
-}
-
-.presentacion-2 {
-    display: flex;
-    margin: 1rem;
-    padding: 1rem;
-    font-size: 1.2rem;
-    text-align: justify;
-    font-weight: 600;
-}
-
-.presentacion-3 {
+.presentacion {
     display: flex;
     margin: 1rem;
     padding: 1rem;
@@ -94,15 +76,9 @@ footer {
     height: auto;
 }
 
-/* pagina 2 juegos */
+/* pagina 2 - 3 - 4 juegos, peliculas y libros */
 
-h2 {
-    display: flex;
-    justify-content: center;
-    margin: 2rem;
-}
-
-.portada-juego {
+.portada {
     height: 20rem;
     width: 15rem;
     margin: 2rem;
@@ -110,23 +86,7 @@ h2 {
     border-radius: 1rem;
 }
 
-.descripcion-juego {
-    font-weight: bold;
-    text-align: justify;
-    margin: 1rem;
-}
-
-/* pagina 3 peliculas */
-
-.portada-pelicula {
-    height: 20rem;
-    width: 15rem;
-    margin: 2rem;
-    object-fit: cover;
-    border-radius: 1rem;
-}
-
-.descripcion-pelicula {
+.descripcion {
     font-weight: bold;
     text-align: justify;
     margin: 1rem;
@@ -141,15 +101,9 @@ h2 {
     border-radius: 1rem;
 }
 
-.descripcion-libro {
-    font-weight: bold;
-    text-align: justify;
-    margin: 1rem;
-}
-
 /* pagina 5 compra */
 
-.compra-1 {  
+.compra {  
     display: flex;
     justify-content: center;
     margin: 1rem;
@@ -164,11 +118,6 @@ h2 {
     margin-bottom: 3rem;
 }
 
-.compra-2 {  
-    display: flex;
-    justify-content: center;
-}
-
 
 .imagen-compra-2 {
     border-radius: 1rem;
@@ -176,4 +125,8 @@ h2 {
     max-width: 100%;
     height: auto;
     margin-top: 3rem;
+}
+
+footer {
+    font-weight: bold;
 }
