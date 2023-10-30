@@ -1,0 +1,12 @@
+//BASE
+@import "./base/reset";
+
+//LAYOUT
+@import "./layout/header";
+@import "./layout/presentacion";
+@import "./layout/portada";
+@import "./layout/descripciones";
+@import "./layout/footer";
+
+//COMPONENT
+@import "./components/cards"

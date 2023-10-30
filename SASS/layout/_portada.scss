@@ -1,0 +1,20 @@
+main {
+    .portada {
+        height: 20rem;
+        width: 15rem;
+        margin: 2rem;
+        object-fit: cover;
+        border-radius: 1rem;
+    }
+    .portada-libro {
+        height: 20rem;
+        width: 15rem;
+        margin: 2rem;
+        border-radius: 1rem;
+    }
+    .compra {  
+        display: flex;
+        justify-content: center;
+        margin: 1rem;
+    }
+}
