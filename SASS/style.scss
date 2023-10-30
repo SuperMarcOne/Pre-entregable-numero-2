@@ -1,17 +1,17 @@
 /*BASE*/
-@import "./base/reset";
+@import "../sass/base/reset";
 
 /*LAYOUT*/
-@import "./layout/header";
-@import "./layout/presentacion";
-@import "./layout/portada";
-@import "./layout/descripcion";
-@import "./layout/footer";
+@import "../sass/layout/header";
+@import "../sass/layout/presentacion";
+@import "../sass/layout/portada";
+@import "../sass/layout/descripcion";
+@import "../sass/layout/footer";
 
 /*COMPONENT*/
-@import "./components/cards";
+@import "../sass/components/cards";
 
 /*UTILITIES*/
-@import "./utilities/variables";
-@import "./utilities/extend";
-@import "./utilities/mixin";
+@import "../sass/utilities/variables";
+@import "../sass/utilities/extend";
+@import "../sass/utilities/mixin";
