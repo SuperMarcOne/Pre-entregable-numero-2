@@ -1,17 +1,17 @@
-//BASE
+/*BASE*/
 @import "./base/reset";
 
-//LAYOUT
+/*LAYOUT*/
 @import "./layout/header";
 @import "./layout/presentacion";
 @import "./layout/portada";
-@import "./layout/descripciones";
+@import "./layout/descripcion";
 @import "./layout/footer";
 
-//COMPONENT
+/*COMPONENT*/
 @import "./components/cards";
 
-//UTILITIES
+/*UTILITIES*/
 @import "./utilities/variables";
 @import "./utilities/extend";
-@import "./utilities/mixin"
+@import "./utilities/mixin";

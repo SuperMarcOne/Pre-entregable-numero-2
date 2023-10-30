@@ -1,11 +1,13 @@
+@import "../utilities/variables";
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-//APLICANDO VARIABLE
+/*APLICANDO VARIABLE*/
 
 body {
-    background-color:$fondo_asassin;
+    background-color:$fondo;
 }

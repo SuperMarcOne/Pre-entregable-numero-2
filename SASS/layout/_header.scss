@@ -1,4 +1,3 @@
-
 h1 {
     @extend h1;
 }
@@ -20,11 +19,10 @@ h1 {
     font-size: 2rem;
 }
 
-//Aplicando Hover
+/*Aplicando Hover*/
 
 .nav-item:hover {
     background-color: #eee;
     border-radius: 1rem;
 }
-
 
