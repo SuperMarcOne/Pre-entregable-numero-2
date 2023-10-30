@@ -1,12 +1,6 @@
 
 h1 {
-    display: flex;
-    justify-content: center;
-    margin-top: 2rem;
-    font-weight: bolder;
-    span {
-        color: red;
-    }
+    @extend h1;
 }
 
 /* BOOTSTRAP */
