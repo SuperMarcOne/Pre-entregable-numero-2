@@ -88,10 +88,31 @@ main .descripcion {
   margin: 1rem;
 }
 
+/*Variable del background color */
 footer {
   font-weight: bold;
+  /* Animaciones */
+  animation-name: cambio_fondo;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-duration: 10s;
+  animation-delay: 10s;
 }
 
+@keyframes cambio_fondo {
+  0% {
+    background-color: #dcdcdc;
+  }
+  35% {
+    background-color: indianred;
+  }
+  70% {
+    background-color: red;
+  }
+  100% {
+    background-color: #dcdcdc;
+  }
+}
 /*COMPONENT*/
 .imagen-1 {
   display: flex;
