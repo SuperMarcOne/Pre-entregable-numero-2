@@ -18,3 +18,17 @@ main {
         margin: 1rem;
     }
 }
+
+/* transiciones y transformaciones */
+
+.portada:hover {
+    transition: 2s;
+    transform: scale(1,1.1);
+    cursor: pointer;
+}
+
+.portada-libro:hover {
+    transition: 2s;
+    transform: scale(1,1.1);
+    cursor: pointer;
+}

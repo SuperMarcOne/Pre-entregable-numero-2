@@ -69,6 +69,19 @@ main .compra {
   margin: 1rem;
 }
 
+/* transiciones y transformaciones */
+.portada:hover {
+  transition: 2s;
+  transform: scale(1, 1.1);
+  cursor: pointer;
+}
+
+.portada-libro:hover {
+  transition: 2s;
+  transform: scale(1, 1.1);
+  cursor: pointer;
+}
+
 main .descripcion {
   font-weight: bold;
   text-align: justify;
@@ -112,6 +125,7 @@ footer {
 
 /*UTILITIES*/
 /*Variable del background color */
+/* transicion y transformacion */
 h1 {
   display: flex;
   justify-content: center;
@@ -120,13 +134,28 @@ h1 {
 }
 h1 span {
   color: red;
+  transition: 2s;
+  transform: scale(1, 1.3);
 }
 
+h1 span:hover {
+  color: white;
+  transition: 4s;
+  transform: scale(1.3, 0);
+}
+
+/* transicion */
 h2 {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   display: flex;
   justify-content: center;
   margin: 2rem;
+  transition: 2s;
+}
+
+h2:hover {
+  transition: 2s;
+  color: red;
 }
 
 /*# sourceMappingURL=style.css.map */
