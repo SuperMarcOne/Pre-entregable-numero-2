@@ -1,0 +1,10 @@
+@mixin h2-fijo ($fuente, $flexibilidad, $justificado, $margen) {
+    font-family: $fuente;
+    display: $flexibilidad;
+    justify-content: $justificado;
+    margin: $margen;
+}
+
+h2 {
+    @include h2-fijo($fuente_assassin, flex, center, 2rem);
+}
